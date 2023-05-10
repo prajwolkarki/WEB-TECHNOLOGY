@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Normal Flow Box Layout Example</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; }
+        header{
+            background-color: black;
+            color: white;
+            padding: 20px; }
+        ul{
+            background-color: #f2f2f2;
+            height: 35px;
+            padding: 5px; }
+        ul li{
+            display: inline-block;
+            border: 1px solid grey;
+            border-radius: 3px;
+            padding: 3px;
+            margin-inline: 5px; }
+        .container{
+            border: 1px solid black;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 2px;   }
+        footer{
+            text-align: center;
+            padding: 10px;
+            background-color: black;
+            color: white;
+            height: 60px;
+            margin-inline: 8px;
+            display: grid;
+            place-content: center;
+            border-radius: 2px;  }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Normal Flow Box Layout Example</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Service</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h3>About Us</h3>
+        <br/>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur minus veniam numquam, porro dolore natus alias ipsa nostrum sed, illum vero excepturi animi voluptas accusamus, labore nisi! Alias eveniet quidem fuga delectus eligendi! Explicabo vero architecto dignissimos ipsum, illo officia! Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore alias rerum animi quibusdam obcaecati repudiandae tempora dicta voluptatibus nam. Modi.</p>
+    </div>
+    <footer>
+        <p>&copy; 2023 Normal Flow Box Layout Example</p>
+    </footer>
+</body>
+</html>

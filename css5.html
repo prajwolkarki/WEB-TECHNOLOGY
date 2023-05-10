@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Table property</title>
+    <style>
+       table{
+        table-layout: fixed;
+        font-family: sans-serif;
+        border-collapse: collapse;
+        margin-inline: auto;
+       }
+       table,th,td{
+        border: 1px solid black;
+        text-align: center;
+       }
+       th,td{
+        padding: 10px;
+       }
+       tr:nth-child(odd){
+        background-color: #f2f2f2;
+       }
+       th:nth-child(1){
+        width: 400px;
+       }
+       th:nth-child(2){
+        width: 400px;
+       }
+       th:nth-child(3){
+        width: 200px;
+       }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>25</td>  
+            </tr>
+            <tr>
+                <td>Jane</td>
+                <td>Doe</td>
+                <td>30</td>  
+            </tr>
+            <tr>
+                <td>Bob</td>
+                <td>Smith</td>
+                <td>40</td>  
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

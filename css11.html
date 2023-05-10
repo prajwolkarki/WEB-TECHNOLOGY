@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Webpage Example</title>
+    <style>
+      header {
+        background-color: #333333;
+        color: #fff;
+        text-align: center;  }
+      main {
+        background-color: #f2f2f2; }
+      footer {
+        background-color: #333333;
+        color: #fff;
+        text-align: center;
+        padding: 0.5rem; }
+      .gap {
+        padding: 1rem; }
+      @media (max-width: 500px) {
+        header {
+          padding: 0.4rem; }
+        html {
+          font-size: 10px;}
+        main {
+          padding: 1rem; }
+        footer {
+          padding: 1rem; }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="gap">
+      <h1>Responsive Web Page Example</h1>
+    </header>
+    <main class="gap">
+      <p>
+        Use the box-sizing property to include padding and borders in the
+        element's total width and height.
+      </p>
+    </main>
+    <footer>
+      <p>&copy; 2021 - Example Footer</p>
+    </footer>
+  </body>
+</html>
